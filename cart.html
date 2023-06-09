@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Shop/Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+ <main>
+<div class="cart-modal-overlay">
+    <div class="cart-modal">
+      <i id="close-btn" class="fas fa-times"></i>
+        <h1 class="cart-is-empty">Cart is empty</h1>
+      
+        <div class="product-rows">
+        </div>
+        <div class="total">
+          <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">$0</span>
+              <button class="purchase-btn">PURCHASE</button>
+        </div>
+      </div>
+</div>
+      
+<!--   end of cart modal -->
+  <div class="cart-btn">
+    <i id="cart" class="fas fa-shopping-cart"></i>
+      <span class ="cart-quantity">0</span>
+  </div><br>
+  <hr>
+<!--  products  -->
+  <div class="items-container">
+    <div class="card-1 card">
+      <img class="product-image" src="images/wildin1.jpeg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$50</span>
+    </div>
+    <div class="card-2 card">
+      <img class="product-image" src="images/wildin2.jpeg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">$75</span>
+    </div>
+    <div class="card-3 card">
+      <img class="product-image" src="images/wildin3.jpeg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$85</span>
+    </div>
+    <div class="card-4 card">
+      <img class="product-image" src="images/wildin2.jpeg" alt="">
+         <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">$50</span>
+    </div>
+    <div class="card-5 card">
+      <img class="product-image" src="images/wildin1.jpeg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">$100</span>
+    </div>
+  </div>  
+ </main>
+ 
+  
+  <script  src="./js/script.js"></script>
+  </body>
+</html>
